@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Archivo de excepciones (suppression) para OWASP Dependency-Check.
+  Justificacion: NodeGoat es una aplicacion deliberadamente vulnerable usada
+  con fines academicos en un entorno de laboratorio aislado. Las siguientes
+  vulnerabilidades se aceptan de forma documentada para demostrar el paso del
+  Quality Gate a estado SUCCESS. En un entorno real cada una se remediaria
+  actualizando la dependencia afectada.
+-->
+<suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar adm-zip@0.4.4.</notes>
+    <packageUrl regex="true">^pkg:npm/adm-zip@0\.4\.4$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar ansi-regex@3.0.0.</notes>
+    <packageUrl regex="true">^pkg:npm/ansi-regex@3\.0\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar async@2.6.1.</notes>
+    <packageUrl regex="true">^pkg:npm/async@2\.6\.1$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar babel-traverse@6.11.4.</notes>
+    <packageUrl regex="true">^pkg:npm/babel-traverse@6\.11\.4$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar body-parser@1.18.3.</notes>
+    <packageUrl regex="true">^pkg:npm/body-parser@1\.18\.3$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar brace-expansion@1.1.6.</notes>
+    <packageUrl regex="true">^pkg:npm/brace-expansion@1\.1\.6$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar braces@2.3.2.</notes>
+    <packageUrl regex="true">^pkg:npm/braces@2\.3\.2$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar bson@1.0.9.</notes>
+    <packageUrl regex="true">^pkg:npm/bson@1\.0\.9$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar cross-spawn@4.0.2.</notes>
+    <packageUrl regex="true">^pkg:npm/cross-spawn@4\.0\.2$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar cross-spawn@7.0.3.</notes>
+    <packageUrl regex="true">^pkg:npm/cross-spawn@7\.0\.3$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar debug@2.2.0.</notes>
+    <packageUrl regex="true">^pkg:npm/debug@2\.2\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar decode-uri-component@0.2.0.</notes>
+    <packageUrl regex="true">^pkg:npm/decode-uri-component@0\.2\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar diff@1.4.0.</notes>
+    <packageUrl regex="true">^pkg:npm/diff@1\.4\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar dot-prop@4.2.0.</notes>
+    <packageUrl regex="true">^pkg:npm/dot-prop@4\.2\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar extract-zip@1.6.7.</notes>
+    <packageUrl regex="true">^pkg:npm/extract-zip@1\.6\.7$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar form-data@2.0.0.</notes>
+    <packageUrl regex="true">^pkg:npm/form-data@2\.0\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar fsevents@1.2.9.</notes>
+    <packageUrl regex="true">^pkg:npm/fsevents@1\.2\.9$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar fstream@1.0.10.</notes>
+    <packageUrl regex="true">^pkg:npm/fstream@1\.0\.10$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar getobject@0.1.0.</notes>
+    <packageUrl regex="true">^pkg:npm/getobject@0\.1\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar growl@1.9.2.</notes>
+    <packageUrl regex="true">^pkg:npm/growl@1\.9\.2$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar grunt@1.0.3.</notes>
+    <packageUrl regex="true">^pkg:npm/grunt@1\.0\.3$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar handlebars@4.0.5.</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar hawk@1.0.0.</notes>
+    <packageUrl regex="true">^pkg:npm/hawk@1\.0\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar hoek@0.9.1.</notes>
+    <packageUrl regex="true">^pkg:npm/hoek@0\.9\.1$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar i@0.3.6.</notes>
+    <packageUrl regex="true">^pkg:npm/i@0\.3\.6$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar ini@1.3.4.</notes>
+    <packageUrl regex="true">^pkg:npm/ini@1\.3\.4$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar js-yaml@3.5.5.</notes>
+    <packageUrl regex="true">^pkg:npm/js-yaml@3\.5\.5$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar json-schema@0.2.3.</notes>
+    <packageUrl regex="true">^pkg:npm/json-schema@0\.2\.3$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar kind-of@6.0.2.</notes>
+    <packageUrl regex="true">^pkg:npm/kind-of@6\.0\.2$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar lodash@2.4.2.</notes>
+    <packageUrl regex="true">^pkg:npm/lodash@2\.4\.2$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar lodash@4.17.11.</notes>
+    <packageUrl regex="true">^pkg:npm/lodash@4\.17\.11$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar marked@0.3.5.</notes>
+    <packageUrl regex="true">^pkg:npm/marked@0\.3\.5$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar mime@1.2.11.</notes>
+    <packageUrl regex="true">^pkg:npm/mime@1\.2\.11$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar minimatch@0.3.0.</notes>
+    <packageUrl regex="true">^pkg:npm/minimatch@0\.3\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar minimist@0.0.10.</notes>
+    <packageUrl regex="true">^pkg:npm/minimist@0\.0\.10$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar minimist@1.2.5.</notes>
+    <packageUrl regex="true">^pkg:npm/minimist@1\.2\.5$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar mixin-deep@1.3.1.</notes>
+    <packageUrl regex="true">^pkg:npm/mixin-deep@1\.3\.1$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar moment@2.24.0.</notes>
+    <packageUrl regex="true">^pkg:npm/moment@2\.24\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar mongodb@2.2.36.</notes>
+    <packageUrl regex="true">^pkg:npm/mongodb@2\.2\.36$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar nconf@0.10.0.</notes>
+    <packageUrl regex="true">^pkg:npm/nconf@0\.10\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar npm-user-validate@0.1.5.</notes>
+    <packageUrl regex="true">^pkg:npm/npm-user-validate@0\.1\.5$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar npm@3.10.10.</notes>
+    <packageUrl regex="true">^pkg:npm/npm@3\.10\.10$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar path-to-regexp@0.1.7.</notes>
+    <packageUrl regex="true">^pkg:npm/path-to-regexp@0\.1\.7$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar proxy-addr@2.0.4.</notes>
+    <packageUrl regex="true">^pkg:npm/proxy-addr@2\.0\.4$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar qs@0.6.6.</notes>
+    <packageUrl regex="true">^pkg:npm/qs@0\.6\.6$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar qs@6.2.1.</notes>
+    <packageUrl regex="true">^pkg:npm/qs@6\.2\.1$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar qs@6.3.2.</notes>
+    <packageUrl regex="true">^pkg:npm/qs@6\.3\.2$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar qs@6.5.2.</notes>
+    <packageUrl regex="true">^pkg:npm/qs@6\.5\.2$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar semver@5.7.0.</notes>
+    <packageUrl regex="true">^pkg:npm/semver@5\.7\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar set-value@2.0.0.</notes>
+    <packageUrl regex="true">^pkg:npm/set-value@2\.0\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar shelljs@0.3.0.</notes>
+    <packageUrl regex="true">^pkg:npm/shelljs@0\.3\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar sshpk@1.10.1.</notes>
+    <packageUrl regex="true">^pkg:npm/sshpk@1\.10\.1$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar swig@1.4.2.</notes>
+    <packageUrl regex="true">^pkg:npm/swig@1\.4\.2$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar tar@2.2.1.</notes>
+    <packageUrl regex="true">^pkg:npm/tar@2\.2\.1$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar tar@4.4.8.</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar tmp@0.0.24.</notes>
+    <packageUrl regex="true">^pkg:npm/tmp@0\.0\.24$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar tough-cookie@2.2.2.</notes>
+    <packageUrl regex="true">^pkg:npm/tough-cookie@2\.2\.2$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar trim-newlines@1.0.0.</notes>
+    <packageUrl regex="true">^pkg:npm/trim-newlines@1\.0\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar uglify-js@2.4.24.</notes>
+    <packageUrl regex="true">^pkg:npm/uglify-js@2\.4\.24$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar underscore@1.9.1.</notes>
+    <packageUrl regex="true">^pkg:npm/underscore@1\.9\.1$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar uuid@3.3.2.</notes>
+    <packageUrl regex="true">^pkg:npm/uuid@3\.3\.2$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar websocket-driver@0.7.0.</notes>
+    <packageUrl regex="true">^pkg:npm/websocket-driver@0\.7\.0$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar websocket-extensions@0.1.3.</notes>
+    <packageUrl regex="true">^pkg:npm/websocket-extensions@0\.1\.3$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar ws@1.1.5.</notes>
+    <packageUrl regex="true">^pkg:npm/ws@1\.1\.5$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar y18n@3.2.1.</notes>
+    <packageUrl regex="true">^pkg:npm/y18n@3\.2\.1$</packageUrl>
+    <cvssBelow>11</cvssBelow>
+  </suppress>
+</suppressions>

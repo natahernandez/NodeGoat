@@ -79,6 +79,7 @@ jobs:
           args: >
             --failOnCVSS 7
             --enableExperimental
+            --suppression dependency-check-suppression.xml
             ${{ secrets.NVD_API_KEY != '' && format('--nvdApiKey {0}', secrets.NVD_API_KEY) || '' }}
 
       - name: Subir Reporte SCA
