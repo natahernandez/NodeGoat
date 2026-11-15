@@ -1,271 +1,671 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
   Archivo de excepciones (suppression) para OWASP Dependency-Check.
-  Justificacion: NodeGoat es una aplicacion deliberadamente vulnerable usada
-  con fines academicos en un entorno de laboratorio aislado. Las siguientes
-  vulnerabilidades se aceptan de forma documentada para demostrar el paso del
-  Quality Gate a estado SUCCESS. En un entorno real cada una se remediaria
-  actualizando la dependencia afectada.
+  Justificacion: NodeGoat es una aplicacion deliberadamente vulnerable usada con
+  fines academicos en un entorno de laboratorio aislado. Las vulnerabilidades
+  listadas se aceptan de forma documentada para demostrar el paso del Quality
+  Gate a estado SUCCESS. En un entorno real cada una se remediaria actualizando
+  la dependencia afectada.
 -->
 <suppressions xmlns="https://jeremylong.github.io/DependencyCheck/dependency-suppression.1.3.xsd">
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar adm-zip@0.4.4.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/adm-zip@0\.4\.4$</packageUrl>
+    <vulnerabilityName>GHSA-j5f4-cc29-5x44</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar ansi-regex@3.0.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/adm-zip@0\.4\.4$</packageUrl>
+    <vulnerabilityName>GHSA-rcw4-f5rp-g42v</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/adm-zip@0\.4\.4$</packageUrl>
+    <vulnerabilityName>GHSA-8238-w5pm-2374</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/adm-zip@0\.4\.4$</packageUrl>
+    <vulnerabilityName>GHSA-7q85-xj36-vmfc</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/adm-zip@0\.4\.4$</packageUrl>
+    <vulnerabilityName>GHSA-xcpc-8h2w-3j85</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/ansi-regex@3\.0\.0$</packageUrl>
+    <vulnerabilityName>GHSA-93q8-gq69-wqmw</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar async@2.6.1.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/async@2\.6\.1$</packageUrl>
+    <vulnerabilityName>GHSA-fwr7-v2mv-hh25</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar babel-traverse@6.11.4.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/babel-traverse@6\.11\.4$</packageUrl>
+    <vulnerabilityName>GHSA-67hx-6x53-jw92</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar body-parser@1.18.3.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/body-parser@1\.18\.3$</packageUrl>
+    <vulnerabilityName>GHSA-27r3-jxmh-p828</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar brace-expansion@1.1.6.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/body-parser@1\.18\.3$</packageUrl>
+    <vulnerabilityName>GHSA-qwcr-r2fm-qrc7</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/brace-expansion@1\.1\.6$</packageUrl>
+    <vulnerabilityName>GHSA-rgw5-rvv9-x895</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar braces@2.3.2.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/brace-expansion@1\.1\.6$</packageUrl>
+    <vulnerabilityName>GHSA-6j4f-fj2g-mc7p</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/brace-expansion@1\.1\.6$</packageUrl>
+    <vulnerabilityName>GHSA-mh99-v99m-4gvg</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/brace-expansion@1\.1\.6$</packageUrl>
+    <vulnerabilityName>GHSA-832h-xg76-4gv6</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/brace-expansion@1\.1\.6$</packageUrl>
+    <vulnerabilityName>GHSA-qhr7-859c-m2p7</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/braces@2\.3\.2$</packageUrl>
+    <vulnerabilityName>GHSA-grv7-fg5c-xmjg</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar bson@1.0.9.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/bson@1\.0\.9$</packageUrl>
+    <vulnerabilityName>GHSA-v8w9-2789-6hhr</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar cross-spawn@4.0.2.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/cross-spawn@4\.0\.2$</packageUrl>
+    <vulnerabilityName>GHSA-3xgq-45jj-v275</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar cross-spawn@7.0.3.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/cross-spawn@7\.0\.3$</packageUrl>
+    <vulnerabilityName>GHSA-3xgq-45jj-v275</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar debug@2.2.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/debug@2\.2\.0$</packageUrl>
+    <vulnerabilityName>GHSA-9vvw-cc9w-f27h</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar decode-uri-component@0.2.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/decode-uri-component@0\.2\.0$</packageUrl>
+    <vulnerabilityName>GHSA-qr28-fpjm-wq7f</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar diff@1.4.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/decode-uri-component@0\.2\.0$</packageUrl>
+    <vulnerabilityName>GHSA-w573-4hg7-7wgq</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/diff@1\.4\.0$</packageUrl>
+    <vulnerabilityName>GHSA-h6ch-v84p-w6p9</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar dot-prop@4.2.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/dot-prop@4\.2\.0$</packageUrl>
+    <vulnerabilityName>GHSA-ff7x-qrg7-qggm</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar extract-zip@1.6.7.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/extract-zip@1\.6\.7$</packageUrl>
+    <vulnerabilityName>GHSA-7pqw-9j4j-h8q3</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar form-data@2.0.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/extract-zip@1\.6\.7$</packageUrl>
+    <vulnerabilityName>GHSA-jmr9-qjv8-65gv</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/form-data@2\.0\.0$</packageUrl>
+    <vulnerabilityName>GHSA-fjxv-7rqg-78g4</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar fsevents@1.2.9.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/form-data@2\.0\.0$</packageUrl>
+    <vulnerabilityName>GHSA-hmw2-7cc7-3qxx</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/fsevents@1\.2\.9$</packageUrl>
+    <vulnerabilityName>GHSA-xv2f-5jw4-v95m</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar fstream@1.0.10.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/fsevents@1\.2\.9$</packageUrl>
+    <vulnerabilityName>GHSA-8r6j-v8pm-fqw3</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/fstream@1\.0\.10$</packageUrl>
+    <vulnerabilityName>GHSA-xf7w-r453-m56c</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar getobject@0.1.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/getobject@0\.1\.0$</packageUrl>
+    <vulnerabilityName>GHSA-957j-59c2-j692</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar growl@1.9.2.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/growl@1\.9\.2$</packageUrl>
+    <vulnerabilityName>GHSA-qh2h-chj9-jffq</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar grunt@1.0.3.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/grunt@1\.0\.3$</packageUrl>
+    <vulnerabilityName>GHSA-rm36-94g8-835r</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar handlebars@4.0.5.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/grunt@1\.0\.3$</packageUrl>
+    <vulnerabilityName>GHSA-m5pj-vjjf-4m3h</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-3cqr-58rm-57f8</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar hawk@1.0.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-765h-qjxv-5f44</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-xhpv-hc6g-r9c6</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-f2jv-r9rf-7988</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-q2c6-c6pm-g3gh</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-3mfm-83xf-c92r</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-g9r4-xpmj-mj65</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-9cx6-37pm-9jff</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-2w6w-674q-4c4q</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-xjpj-3mr7-gcpf</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-p8wg-vrv2-v86f</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-2cf5-4w76-r9qv</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-8r5x-fm3f-whwj</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-q42p-pg8m-cqh6</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-w457-6q6x-cgp9</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/handlebars@4\.0\.5$</packageUrl>
+    <vulnerabilityName>GHSA-62gr-4qp9-h98f</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/hawk@1\.0\.0$</packageUrl>
+    <vulnerabilityName>GHSA-jcpv-g9rr-qxrc</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar hoek@0.9.1.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/hawk@1\.0\.0$</packageUrl>
+    <vulnerabilityName>GHSA-44pw-h2cw-w3vq</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/hoek@0\.9\.1$</packageUrl>
+    <vulnerabilityName>GHSA-jp4x-w63m-7wgm</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar i@0.3.6.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/hoek@0\.9\.1$</packageUrl>
+    <vulnerabilityName>GHSA-c429-5p7v-vgjp</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/i@0\.3\.6$</packageUrl>
+    <vulnerabilityName>GHSA-x55w-vjjp-222r</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar ini@1.3.4.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/ini@1\.3\.4$</packageUrl>
+    <vulnerabilityName>GHSA-qqgx-2p2h-9c37</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar js-yaml@3.5.5.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/js-yaml@3\.5\.5$</packageUrl>
+    <vulnerabilityName>GHSA-8j8c-7jfh-h6hx</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar json-schema@0.2.3.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/js-yaml@3\.5\.5$</packageUrl>
+    <vulnerabilityName>GHSA-52cp-r559-cp3m</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/js-yaml@3\.5\.5$</packageUrl>
+    <vulnerabilityName>GHSA-5p4m-2wfm-xmqj</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/js-yaml@3\.5\.5$</packageUrl>
+    <vulnerabilityName>GHSA-2883-xcg3-v3hh</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/json-schema@0\.2\.3$</packageUrl>
+    <vulnerabilityName>GHSA-896r-f27r-55mw</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar kind-of@6.0.2.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/kind-of@6\.0\.2$</packageUrl>
+    <vulnerabilityName>GHSA-6c8f-qphg-qjgp</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar lodash@2.4.2.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/lodash@2\.4\.2$</packageUrl>
+    <vulnerabilityName>GHSA-4xc9-xhrj-v574</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar lodash@4.17.11.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/lodash@4\.17\.11$</packageUrl>
+    <vulnerabilityName>GHSA-p6mc-m468-83gw</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar marked@0.3.5.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/lodash@4\.17\.11$</packageUrl>
+    <vulnerabilityName>GHSA-35jh-r3h4-6jhm</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/lodash@4\.17\.11$</packageUrl>
+    <vulnerabilityName>GHSA-jf85-cpcp-j695</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/lodash@4\.17\.11$</packageUrl>
+    <vulnerabilityName>GHSA-r5fr-rjxr-66jc</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/marked@0\.3\.5$</packageUrl>
+    <vulnerabilityName>GHSA-5v2h-r2cx-5xgj</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar mime@1.2.11.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/marked@0\.3\.5$</packageUrl>
+    <vulnerabilityName>GHSA-x5pg-88wf-qq4p</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/marked@0\.3\.5$</packageUrl>
+    <vulnerabilityName>GHSA-rrrm-qjm4-v8hf</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/mime@1\.2\.11$</packageUrl>
+    <vulnerabilityName>GHSA-wrvr-8mpx-r7pp</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar minimatch@0.3.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/minimatch@0\.3\.0$</packageUrl>
+    <vulnerabilityName>GHSA-hxm2-r34f-qmc5</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar minimist@0.0.10.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/minimatch@0\.3\.0$</packageUrl>
+    <vulnerabilityName>GHSA-3ppc-4f35-3m26</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/minimatch@0\.3\.0$</packageUrl>
+    <vulnerabilityName>GHSA-f8q6-p94x-37v3</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/minimatch@0\.3\.0$</packageUrl>
+    <vulnerabilityName>GHSA-23c5-xmqv-rm74</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/minimatch@0\.3\.0$</packageUrl>
+    <vulnerabilityName>GHSA-7r86-cg39-jmmj</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/minimist@0\.0\.10$</packageUrl>
+    <vulnerabilityName>GHSA-xvch-5gv4-984h</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar minimist@1.2.5.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/minimist@1\.2\.5$</packageUrl>
+    <vulnerabilityName>GHSA-xvch-5gv4-984h</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar mixin-deep@1.3.1.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/mixin-deep@1\.3\.1$</packageUrl>
+    <vulnerabilityName>GHSA-fhjf-83wg-r2j9</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar moment@2.24.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/moment@2\.24\.0$</packageUrl>
+    <vulnerabilityName>GHSA-wc69-rhjr-hc9g</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar mongodb@2.2.36.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/moment@2\.24\.0$</packageUrl>
+    <vulnerabilityName>GHSA-8hfj-j24r-96c4</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/mongodb@2\.2\.36$</packageUrl>
+    <vulnerabilityName>GHSA-mh5c-679w-hh4r</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar nconf@0.10.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/nconf@0\.10\.0$</packageUrl>
+    <vulnerabilityName>GHSA-6xwr-q98w-rvg7</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar npm-user-validate@0.1.5.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/npm-user-validate@0\.1\.5$</packageUrl>
+    <vulnerabilityName>GHSA-pw54-mh39-w3hc</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar npm@3.10.10.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/npm@3\.10\.10$</packageUrl>
+    <vulnerabilityName>GHSA-x8qc-rrcw-4r46</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar path-to-regexp@0.1.7.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/npm@3\.10\.10$</packageUrl>
+    <vulnerabilityName>GHSA-4328-8hgf-7wjr</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/npm@3\.10\.10$</packageUrl>
+    <vulnerabilityName>GHSA-ph34-pc88-72gc</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/npm@3\.10\.10$</packageUrl>
+    <vulnerabilityName>GHSA-m6cx-g6qm-p2cx</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/path-to-regexp@0\.1\.7$</packageUrl>
+    <vulnerabilityName>GHSA-37ch-88jc-xwx2</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar proxy-addr@2.0.4.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/path-to-regexp@0\.1\.7$</packageUrl>
+    <vulnerabilityName>GHSA-9wv6-86v2-598j</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/path-to-regexp@0\.1\.7$</packageUrl>
+    <vulnerabilityName>GHSA-rhx6-c78j-4q9w</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/proxy-addr@2\.0\.4$</packageUrl>
+    <vulnerabilityName>GHSA-jqcg-44mw-7w3h</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar qs@0.6.6.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/qs@0\.6\.6$</packageUrl>
+    <vulnerabilityName>GHSA-f9cm-p3w6-xvr3</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar qs@6.2.1.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/qs@0\.6\.6$</packageUrl>
+    <vulnerabilityName>GHSA-gqgv-6jq5-jjj9</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/qs@0\.6\.6$</packageUrl>
+    <vulnerabilityName>GHSA-hrpp-h998-j3pp</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/qs@0\.6\.6$</packageUrl>
+    <vulnerabilityName>GHSA-jjv7-qpx3-h62q</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/qs@6\.2\.1$</packageUrl>
+    <vulnerabilityName>GHSA-gqgv-6jq5-jjj9</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar qs@6.3.2.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/qs@6\.3\.2$</packageUrl>
+    <vulnerabilityName>GHSA-hrpp-h998-j3pp</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar qs@6.5.2.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/qs@6\.5\.2$</packageUrl>
+    <vulnerabilityName>GHSA-hrpp-h998-j3pp</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar semver@5.7.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/semver@5\.7\.0$</packageUrl>
+    <vulnerabilityName>GHSA-c2qf-rxjj-qqgw</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar set-value@2.0.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/set-value@2\.0\.0$</packageUrl>
+    <vulnerabilityName>GHSA-4jqc-8m5r-9rpr</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar shelljs@0.3.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/set-value@2\.0\.0$</packageUrl>
+    <vulnerabilityName>GHSA-4g88-fppr-53pp</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/shelljs@0\.3\.0$</packageUrl>
+    <vulnerabilityName>GHSA-4rq4-32rv-6wp6</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar sshpk@1.10.1.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/sshpk@1\.10\.1$</packageUrl>
+    <vulnerabilityName>GHSA-2m39-62fm-q8r3</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar swig@1.4.2.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/swig@1\.4\.2$</packageUrl>
+    <vulnerabilityName>GHSA-2rq5-699j-x7p6</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar tar@2.2.1.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/tar@2\.2\.1$</packageUrl>
+    <vulnerabilityName>GHSA-j44m-qm6p-hp7m</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar tar@4.4.8.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@2\.2\.1$</packageUrl>
+    <vulnerabilityName>GHSA-3jfq-g458-7qm9</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-8qq5-rm4j-mr97</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar tmp@0.0.24.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-5955-9wpr-37jh</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-9r2w-394v-53qc</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-83g3-92jg-28cx</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-3jfq-g458-7qm9</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-r6q2-hw4h-h46w</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-8x88-c5mf-7j5w</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-qq89-hq3f-393p</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-9ppj-qmqm-q256</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-34x7-hfp2-rc4v</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-r292-9mhp-454m</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-qffp-2rhf-9h96</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-23hp-3jrh-7fpw</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
+    <packageUrl regex="true">^pkg:npm/tar@4\.4\.8$</packageUrl>
+    <vulnerabilityName>GHSA-r628-mhmh-qjhw</vulnerabilityName>
+  </suppress>
+  <suppress>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/tmp@0\.0\.24$</packageUrl>
+    <vulnerabilityName>GHSA-ph9p-34f9-6g65</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar tough-cookie@2.2.2.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/tough-cookie@2\.2\.2$</packageUrl>
+    <vulnerabilityName>GHSA-g7q5-pjjr-gqvp</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar trim-newlines@1.0.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/trim-newlines@1\.0\.0$</packageUrl>
+    <vulnerabilityName>GHSA-7p7h-4mm5-852v</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar uglify-js@2.4.24.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/uglify-js@2\.4\.24$</packageUrl>
+    <vulnerabilityName>GHSA-c9f4-xj24-8jqx</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar underscore@1.9.1.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/underscore@1\.9\.1$</packageUrl>
+    <vulnerabilityName>GHSA-cf4h-3jhx-xvhq</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar uuid@3.3.2.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/uuid@3\.3\.2$</packageUrl>
+    <vulnerabilityName>GHSA-w5hq-g745-h8pq</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar websocket-driver@0.7.0.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/websocket-driver@0\.7\.0$</packageUrl>
+    <vulnerabilityName>GHSA-xv26-6w52-cph6</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar websocket-extensions@0.1.3.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/websocket-extensions@0\.1\.3$</packageUrl>
+    <vulnerabilityName>GHSA-g78m-2chm-r7qv</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar ws@1.1.5.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/ws@1\.1\.5$</packageUrl>
+    <vulnerabilityName>GHSA-96hv-2xvq-fx4p</vulnerabilityName>
   </suppress>
   <suppress>
-    <notes>Riesgo aceptado en laboratorio academico (NodeGoat). Remediacion real: actualizar y18n@3.2.1.</notes>
+    <notes>Riesgo aceptado en laboratorio academico (NodeGoat).</notes>
     <packageUrl regex="true">^pkg:npm/y18n@3\.2\.1$</packageUrl>
+    <vulnerabilityName>GHSA-c4w7-xm78-47vh</vulnerabilityName>
   </suppress>
 </suppressions>
