@@ -78,8 +78,8 @@ jobs:
           out: 'reports'
           args: >
             --failOnCVSS 7
-            --nvdApiKey ${{ secrets.NVD_API_KEY }}
             --enableExperimental
+            ${{ secrets.NVD_API_KEY != '' && format('--nvdApiKey {0}', secrets.NVD_API_KEY) || '' }}
 
       - name: Subir Reporte SCA
         uses: actions/upload-artifact@v4
