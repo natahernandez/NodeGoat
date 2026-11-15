@@ -1,0 +1,89 @@
+name: DevSecOps Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  # ============================================================
+  # FASE 2 - SAST con Semgrep
+  # ============================================================
+  sast-semgrep:
+    name: "SAST - Semgrep Code Scanning"
+    runs-on: ubuntu-latest
+    container:
+      image: semgrep/semgrep
+    steps:
+      - name: Checkout del codigo
+        uses: actions/checkout@v4
+
+      # Genera el reporte SARIF (no detiene el build aqui)
+      - name: Semgrep scan (reporte SARIF)
+        run: |
+          semgrep scan \
+            --config p/security-audit \
+            --config p/owasp-top-ten \
+            --sarif --output semgrep-results.sarif || true
+
+      - name: Subir artefacto SARIF de Semgrep
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: semgrep-sarif-report
+          path: semgrep-results.sarif
+
+      # QUALITY GATE (SAST): falla si hay hallazgos nivel ERROR/HIGH
+      - name: Quality Gate - Semgrep (falla con ERROR/HIGH)
+        run: |
+          semgrep scan \
+            --config p/security-audit \
+            --config p/owasp-top-ten \
+            --severity ERROR \
+            --error
+
+  # ============================================================
+  # FASE 3 - SBOM (CycloneDX) + SCA (OWASP Dependency-Check)
+  # ============================================================
+  sca-and-sbom:
+    name: "SCA & Generacion de SBOM"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout del codigo
+        uses: actions/checkout@v4
+
+      # 1. SBOM en estandar CycloneDX con Syft (Anchore)
+      - name: Generar SBOM con Syft (CycloneDX JSON)
+        uses: anchore/sbom-action@v0
+        with:
+          format: cyclonedx-json
+          output-file: "sbom.cyclonedx.json"
+
+      - name: Subir artefacto SBOM (CycloneDX)
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: sbom-cyclonedx
+          path: sbom.cyclonedx.json
+
+      # 2. SCA con OWASP Dependency-Check
+      #    --failOnCVSS 7  => QUALITY GATE: build FAIL si CVSS >= 7.0 (HIGH/CRITICAL)
+      - name: OWASP Dependency-Check Scan
+        uses: dependency-check/Dependency-Check_Action@main
+        with:
+          project: 'AppSegura-NodeGoat'
+          path: '.'
+          format: 'HTML'
+          out: 'reports'
+          args: >
+            --failOnCVSS 7
+            --nvdApiKey ${{ secrets.NVD_API_KEY }}
+            --enableExperimental
+
+      - name: Subir Reporte SCA
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: dependency-check-report
+          path: reports/
